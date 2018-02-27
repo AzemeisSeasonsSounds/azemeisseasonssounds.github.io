@@ -1,0 +1,67 @@
+{
+  "_from": "startbootstrap-full",
+  "_id": "startbootstrap-full@4.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-x5QnrTQIihRrfCd9mwDUR8PieltX7r2/B5sXvzHM6TdUKdwQNgNDqTar7qgIKpsNpXDquXq+YijZ2qEDNiGv1g==",
+  "_location": "/startbootstrap-full",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "startbootstrap-full",
+    "name": "startbootstrap-full",
+    "escapedName": "startbootstrap-full",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/startbootstrap-full/-/startbootstrap-full-4.0.0.tgz",
+  "_shasum": "c12403f806f403c80985b2584d5168e3122f78bd",
+  "_spec": "startbootstrap-full",
+  "_where": "/home/andre/Websites/cover-website",
+  "author": {
+    "name": "Start Bootstrap"
+  },
+  "bugs": {
+    "url": "https://github.com/BlackrockDigital/startbootstrap-full/issues",
+    "email": "feedback@startbootstrap.com"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "David Miller",
+      "url": "http://davidmiller.io/"
+    }
+  ],
+  "dependencies": {
+    "bootstrap": "4.0.0",
+    "jquery": "3.3.1"
+  },
+  "deprecated": false,
+  "description": "A fixed, full page image background HTML template built with Bootstrap",
+  "devDependencies": {
+    "browser-sync": "2.23.6",
+    "gulp": "^3.9.1"
+  },
+  "homepage": "https://startbootstrap.com/template-overviews/full",
+  "keywords": [
+    "css",
+    "sass",
+    "html",
+    "responsive",
+    "theme",
+    "template"
+  ],
+  "license": "MIT",
+  "name": "startbootstrap-full",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlackrockDigital/startbootstrap-full.git"
+  },
+  "title": "Full",
+  "version": "4.0.0"
+}
