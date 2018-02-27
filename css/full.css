@@ -108,13 +108,37 @@ body {
   font-weight: 700;
 }
 
-.clock {
-	font-size: 4000px;
-}
 
 /*
  * Footer
  */
 .mastfoot {
   color: rgba(255, 255, 255, .5);
+}
+
+#clockdiv{
+    font-family: sans-serif;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 50px;
+}
+
+#clockdiv > div{
+    padding: 10px;
+    display: inline-block;
+}
+
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #d4dd81;
+    display: inline-block;
+}
+
+.smalltext{
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 16px;
 }
