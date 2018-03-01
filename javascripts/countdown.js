@@ -39,3 +39,4 @@ function initializeClock(id, endtime) {
 
 var deadline = new Date(Date.parse(new Date('March 9, 2018 14:00:00')));
 initializeClock('clockdiv', deadline);
+// Not my code, source in sitepoint.com/build-javascript-countdown-timer-no-dependencies/
