@@ -1,3 +1,4 @@
+// Not my code, source in sitepoint.com/build-javascript-countdown-timer-no-dependencies/
 function getTimeRemaining(endtime) {
   var t = Date.parse(endtime) - Date.parse(new Date());
   var seconds = Math.floor((t / 1000) % 60);
@@ -15,6 +16,7 @@ function getTimeRemaining(endtime) {
 
 function initializeClock(id, endtime) {
   var clock = document.getElementById(id);
+  clock.style.display = 'inline-block';
   var daysSpan = clock.querySelector('.days');
   var hoursSpan = clock.querySelector('.hours');
   var minutesSpan = clock.querySelector('.minutes');
@@ -36,7 +38,13 @@ function initializeClock(id, endtime) {
   updateClock();
   var timeinterval = setInterval(updateClock, 1000);
 }
+var lineup = document.getElementById('lineupimg');
+var endDate = 'March 9, 2018 14:00:00'
+var endMs = Date.parse(endDate);
+var currentMs = Date.parse(new Date());
 
-var deadline = new Date(Date.parse(new Date('March 9, 2018 14:00:00')));
-initializeClock('clockdiv', deadline);
-// Not my code, source in sitepoint.com/build-javascript-countdown-timer-no-dependencies/
+if(endMs > Date.parse(new Date())){
+  initializeClock('clockdiv', endDate);
+} else {
+  lineup.style.display = 'inline';
+}
