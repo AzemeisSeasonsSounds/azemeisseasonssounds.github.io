@@ -42,13 +42,13 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 var lineup = document.getElementById('lineupimg');
-var endDate = 'March 9, 2018 14:00:00'
+var endDate = 'March 9, 2018 14:00:00';
 var endMs = Date.parse(endDate);
 
 if(endMs > Date.parse(new Date())){
   initializeClock('clockdiv', endDate);
 } else {
-  lineup.style.display = 'inline';
+  lineup.style.display = 'block';
 }
 
 function updateToLineup() {

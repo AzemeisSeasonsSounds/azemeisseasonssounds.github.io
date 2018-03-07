@@ -63,12 +63,21 @@ body {
 
 #lineupimg{
   display: none;
+  padding-top: 25px;
+  max-width: 80%;
+  max-height: 80%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
 }
 
 #clockdiv{
     font-family: sans-serif;
     color: #ffffff;
-    display: inline-block;
+    display: none;
     font-weight: 100;
     text-align: center;
     font-size: 50px;
